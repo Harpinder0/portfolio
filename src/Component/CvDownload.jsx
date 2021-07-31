@@ -14,7 +14,7 @@ const CvDownload = () => {
     return (
     <>
         <div className="text-center my-4">
-            <a href="/" className="btn btn-primary" role="button" aria-pressed="true"><BiArrowBack /> Go To HomePage</a>
+            <a href="/portfolio" className="btn btn-primary" role="button" aria-pressed="true"><BiArrowBack /> Go To HomePage</a>
         </div>
         <div className='main-cv'>
             <div className="cvdownload" >
