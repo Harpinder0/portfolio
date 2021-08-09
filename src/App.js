@@ -10,7 +10,7 @@ function App() {
     <>
       {/* <Navbar /> */}
       <Switch>
-        <Route exact path='/' component={Navbar} />
+        <Route exact path='/portfolio' component={Navbar} />
         <Route exact path='/cvdownload' component={CvDownload} />
       </Switch>
     </>

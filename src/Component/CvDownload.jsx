@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import { ImPhone } from "react-icons/im";
 import { HiOutlineMail } from "react-icons/hi";
 import { GrLinkedinOption} from "react-icons/gr";
@@ -14,7 +15,8 @@ const CvDownload = () => {
     return (
     <>
         <div className="text-center my-4">
-            <a href="/" className="btn btn-primary" role="button" aria-pressed="true"><BiArrowBack /> Go To HomePage</a>
+        <NavLink to="/portfolio" activeClassName="selected" className="btn btn-primary"><BiArrowBack /> Go To HomePage</NavLink>
+            {/* <a href="" className="btn btn-primary" role="button" aria-pressed="true"></a> */}
         </div>
         <div className='main-cv'>
             <div className="cvdownload" >
