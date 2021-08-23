@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { GrLinkedinOption } from "react-icons/gr";
@@ -16,7 +17,8 @@ const Home = () => {
                     </div>
                     <h3>Harpinder Singh</h3>
                     <p>I'm a Creative Front End Web Developer.</p>
-                    <a href="/cvdownload" className="btn">Download My CV</a>
+                    <NavLink to="/cvdownload" activeClassName="selected" className="btn">Download My CV</NavLink>
+
                     <ul className="socialMedia">
                         <li><a href="/"><FaFacebookF /></a></li>
                         <li><a href="/"><FiInstagram /></a></li>
@@ -64,6 +66,9 @@ const Home = () => {
                     object-fit: cover;
                 }
 
+                .banner .content #cvBtn {
+
+                }
                 h3 {
                     position: relative;
                     color: var(--black);
