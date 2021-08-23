@@ -8,7 +8,7 @@ import { GiGamepad, GiCookingPot ,GiSing } from "react-icons/gi";
 import { FcReading } from "react-icons/fc";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { BiArrowBack } from "react-icons/bi";
-import user1 from '../images/user.jpg'
+import user1 from '../images/usermy.jpg'
 
 
 const CvDownload = () => {

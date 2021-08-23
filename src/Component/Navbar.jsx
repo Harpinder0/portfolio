@@ -150,7 +150,7 @@ const Navbar = () => {
                 .main .topbar {
                     position: fixed;
                     top: 0;
-                    width: calc(100% - 300px);
+                    width: calc(100vw - 300px);
                     left: 300px;
                     background: var(--white2);
                     border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -168,7 +168,7 @@ const Navbar = () => {
                 }   
 
                 .main .topbar.active {
-                    width: calc(100% - 0px);
+                    width: calc(100vw - 0px);
                     left: 0;
                 }
 
@@ -267,6 +267,12 @@ const Navbar = () => {
                     text-align: center;
                 }
 
+                }
+
+                @media (max-width: 450px){
+                .navigation {
+                    height: calc(100vh - 100px);
+                }
                 }
             `}
             </style>
