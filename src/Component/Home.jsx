@@ -16,7 +16,7 @@ const Home = () => {
                         <img src={user1} alt="user" />
                     </div>
                     <h3>Harpinder Singh</h3>
-                    <p>I'm a Creative Front End Web Developer.</p>
+                    <p>I'm a Creative Front End React Developer.</p>
                     <NavLink to="/cvdownload" activeClassName="selected" className="btn">Download My CV</NavLink>
 
                     <ul className="socialMedia">
