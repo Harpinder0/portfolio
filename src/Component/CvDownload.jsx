@@ -30,10 +30,10 @@ const CvDownload = () => {
                     <div className="contact-info">
                         <h5>CONTACT INFO</h5>
                         <ul >
-                            <li><ImPhone /> <span> +9876543210 </span> </li>
-                            <li><HiOutlineMail /> <span> john@gmail.com </span> </li>
-                            <li><FaGlobeAmericas /> <span> www.youtube.com </span> </li>
-                            <li><GrLinkedinOption /> <span> www.linkedin.com </span> </li>
+                            <li><ImPhone /> <span> +917976661397 </span> </li>
+                            <li><HiOutlineMail /> <span> <a href="mailto:harpinderbhullar84@gmail.com"> harpinderbhullar84@gmail.com </a> </span> </li>
+                            <li><FaGlobeAmericas /> <span> <a href="https://harpinder0.github.io/portfolio/"> https://harpinder0.github.io/portfolio </a> </span> </li>
+                            <li><GrLinkedinOption /> <span> <a href="https://www.linkedin.com/in/harpinder-singh-45995a208/"> LinkedIn </a></span> </li>
                             <li><GoLocation /> <span>Mohali,Punjab,India </span> </li>
                         </ul>
                     </div>
@@ -43,7 +43,7 @@ const CvDownload = () => {
                         <ul >
                             <li>
                                 <p  className="year">2010-2013</p>
-                                <p>Bachelor of Computer Applications</p>
+                                <p>MBA in Computer Science</p>
                                 <p className="uniname" >University of Cambridge</p>
                             </li>
                             <br/>
@@ -55,8 +55,8 @@ const CvDownload = () => {
                             <br/>
                             <li>
                                 <p className="year">2017-2020</p>
-                                <p>MBA in Computer Science</p>
-                                <p className="uniname" >Stanford University</p>
+                                <p>Bachelor of Computer Applications</p>
+                                <p className="uniname" >Arunodaya University</p>
                             </li>
                         </ul>
                     </div>
@@ -74,7 +74,7 @@ const CvDownload = () => {
                             <li>
                                 <p>English</p>
                                 <div className="myProgress">
-                                    <div className="myBar" style={{width: "65% "}}></div>
+                                    <div className="myBar" style={{width: "45% "}}></div>
                                 </div>
                             </li>
                             <br/>
@@ -227,14 +227,13 @@ const CvDownload = () => {
 
             .left {
                 position: relative;
-                width: 300px;
                 top: 0;
                 left: 0;
                 background: #151E3D;
                 display: flex;
                 flex-direction: column;
                 color: #fff;
-                padding: 0 40px;
+                padding: 0px 30px;
             }
 
             .cvdownload .left .info {
@@ -291,6 +290,7 @@ const CvDownload = () => {
 
             .cvdownload .left ul li {
                 margin-bottom: 10px;
+                white-space: nowrap;
             }
             .cvdownload .left ul li {
                 color: steelblue;
@@ -298,6 +298,11 @@ const CvDownload = () => {
             .cvdownload .left ul li span {
                 margin-left: 11px;
                 font-size: 12px;
+                color: #fff;
+            }
+
+            .cvdownload .left ul li span a {
+                text-decoration: none;
                 color: #fff;
             }
             

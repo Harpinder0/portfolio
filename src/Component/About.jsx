@@ -1,5 +1,4 @@
 import React from 'react'
-import Bg1 from '../images/bg1.jpg'
 
 const About = () => {
     return (
@@ -10,12 +9,13 @@ const About = () => {
                 </div>
                 <div className="content">
                     <div className="textBox">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatibus error voluptates veritatis labore. possimus quam hic sint. Aliquam ipsum rem laborum rerum recusandae eaque id mollitia Porro tempora in beatae iure exercitationem modi fugit perspiciatis consequuntur recusandae..
+                        <p>
+                        I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.
                         <br/> <br/>
-                        Dolore, et accusamus deserunt expedita atque quas praesentium cum iste reprehenderit excepturi laborum. delectus aliquid libero temporibus ullam voluptate doloribus sint quos aspernatur.</p>
-                    </div>
-                    <div className="imgBx">
-                        <img src={Bg1} alt="photography" />
+                        Fueled by high energy levels and boundless enthusiasm, I’m easily inspired and more then willing to follow my fascinations wherever they take me. I’m passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire. I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.
+                        <br/> <br/>
+                        You can read more about my biography, experience, skills, education and much more in the PDF attached bellow:
+                       </p>
                     </div>
                 </div>
             </section>
@@ -59,22 +59,13 @@ const About = () => {
 
             .about .content {
                 display: flex;
-                justify-content: space-between;
                 margin-top: 40px;
             }
 
             .about .content .textBox {
-                width: 49%;
-                min-width: 49%;
-            }
-
-            .about .content .imgBx {
-                margin-left: 40px;
-            }
-
-            .about .content .imgBx img {
-                max-width: 100%;
-            }
+                width: 100%;
+                min-width: 100%;
+            }            
 
             @media (max-width: 922px) {
 

@@ -1,4 +1,8 @@
 import React from 'react'
+import Phone from '../images/phone.png'
+import Placeholder from '../images/placeholder.png'
+import Email from '../images/email.png'
+
 
 const Contact = () => {
     return (
@@ -6,22 +10,28 @@ const Contact = () => {
             <section className="contact adjust" id="contact">
                 <div className="title">
                     <h2>Contact Us</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, hic.</p>
                 </div>
                 <div className="contactForm">
                     <div className="row1">
-                        <input type="text" placeholder='First Name' />
-                        <input type="text" placeholder='Last Name' />
+                        <img alt="phone" src={Phone} />
+                        <div className="info">
+                            <h6>CONTACT NUMBER</h6>
+                            <span>+917976661397</span>
+                        </div>
                     </div>
                     <div className="row1">
-                        <input type="email" placeholder='Email Address' />
-                        <input type="num" placeholder='Mobile No.' />
+                    <img alt="email" src={Email} />
+                    <div className="info">
+                            <h6>EMAIL ADDRESS</h6>
+                            <span><a href="mailto:harpinderbhullar84@gmail.com">harpinderbhullar84@gmail.com</a></span>
+                        </div>
                     </div>
-                    <div className="row2">
-                        <textarea placeholder='Message'></textarea>
-                    </div>
-                    <div className="row2">
-                        <input type="submit" value='Send'/>
+                    <div className="row1">
+                    <img alt="placeholder" src={Placeholder} />
+                    <div className="info">
+                            <h6>ADDRESS</h6>
+                            <span>Mohali, Punjab, India</span>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -42,55 +52,44 @@ const Contact = () => {
 
             .contact .contactForm .row1 {
                 width: 100%;
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-                grid-gap: 20px;
-                margin-top: 20px;                
+                margin-top: 40px;   
+                display: flex;             
             }
 
-            .contact .contactForm .row2 {
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: 20px;                
-            }
+            
 
-            .contact .contactForm .row1 input,
-            .contact .contactForm .row2 textarea{
+            .contact .contactForm .row1
+           {
                 width: 100%;
                 padding: 10px;
                 border: none;
                 outline: none;
                 color: var(--black);
-                background: var(--white2);
                 font-size: 16px;
-                border: 1px solid rgba(0, 0, 0, 0.2);
             }
 
-            .contact .contactForm .row2 textarea {
-                resize: none;
-                height: 150px;
+            .contact .contactForm .row1 .info {
+                margin-left: 16px;
             }
 
-            .contact .contactForm .row2 input[type="submit"] {
-                background: var(--black2);
-                color: #fff;
-                padding: 10px 30px;
-                display: inline-block;
-                font-weight: 500;
-                letter-spacing: 2px;
-                cursor: pointer;
-                font-size: 16px;
-                text-transform: uppercase;
-                max-width: 150px;
-                border: none;
+            .contact .contactForm .row1 .info h6 {
+                color: cornflowerblue;
+                font-weight: bolder;
             }
 
-            .dark .contact .contactForm .row2 input[type="submit"]:hover {
-                background: #2196f3;
+            .contact .contactForm .row1 .info span {
+                font-size: medium;
+                color: var(--black);
+                
             }
 
+            .contact .contactForm .row1 .info span a {
+                text-decoration: none;
+                color: var(--black);
+                
+            }
+
+        
             @media (max-width: 767px) {
 
                 .contact {

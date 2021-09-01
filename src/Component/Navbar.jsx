@@ -4,7 +4,7 @@ import Home from './Home';
 import About from './About';
 import Service from './Service';
 import Project from './Project';
-import Testimonials from './Testimonials';
+// import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -47,7 +47,7 @@ const Navbar = () => {
                         <li><a href="#about" onClick={removeToggle}>About</a></li>
                         <li><a href="#service" onClick={removeToggle}>Service</a></li>
                         <li><a href="#project" onClick={removeToggle}>Project</a></li>
-                        <li><a href="#testimonials" onClick={removeToggle}>Testimonials</a></li>
+                        {/* <li><a href="#testimonials" onClick={removeToggle}>Testimonials</a></li> */}
                         <li><a href="#contact" onClick={removeToggle}>Contact</a></li>
                     </ul>
                     <div className="themeSwitch" onClick={dark}></div>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
                 <div className="main">
                     <div className="topbar">
-                        <a href="/" className="logo">Portfolio</a>
+                        <a href="/portfolio" className="logo">Portfolio</a>
                         <div className="toggle" onClick={toggle}>
                             <AiOutlineMenu/>
                         </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
                     <About />
                     <Service />
                     <Project />
-                    <Testimonials />
+                    {/* <Testimonials /> */}
                     <Contact />
                     <Footer />
                 </div>
@@ -131,6 +131,13 @@ const Navbar = () => {
 
                 .navigation ul li a:hover {
                     opacity: 1;
+                }
+
+                .content h3,
+                .content p {
+                    text-align: center;
+                    line-height: 33px;
+                letter-spacing: 1px;
                 }
 
                 .main {
@@ -265,6 +272,7 @@ const Navbar = () => {
                 .content h3,
                 .content p {
                     text-align: center;
+                    
                 }
 
                 }

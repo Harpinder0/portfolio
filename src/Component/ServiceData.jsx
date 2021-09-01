@@ -1,46 +1,41 @@
-import Icon1 from '../images/icon1.png'
-import Icon2 from '../images/icon2.png'
-import Icon3 from '../images/icon3.png'
-import Icon4 from '../images/icon4.png'
-import Icon5 from '../images/icon5.png'
-import Icon6 from '../images/icon6.png'
+import Html from '../images/html.png'
+import Css from '../images/css-3.png'
+import Bootstrap from '../images/bootstrap.png'
+import JavaScript from '../images/javascript.png'
+import Jquery from '../images/jquery.png'
+import React from '../images/react.png'
+
 
 const ServiceData = [
     {
         id: 1,
-        src:`${Icon1}`,
-        title:'Web Design',
-        info: 'Lorem iure quaerat blanditiis mollitia? Molestias Doloremque.'
+        src:`${Html}`,
+        title:'HTML',
     },
     {
         id: 2,
-        src:`${Icon2}`,
-        title:'Web Development',
-        info: 'Lorem iure quaerat blanditiis mollitia? Molestias Doloremque.'
+        src:`${Css}`,
+        title:'CSS',
     },
     {
         id: 3,
-        src:`${Icon3}`,
-        title:'Android Apps',
-        info: 'Lorem iure quaerat blanditiis mollitia? Molestias Doloremque.'
+        src:`${Bootstrap}`,
+        title:'Bootstrap',
     },
     {
         id: 4,
-        src:`${Icon4}`,
-        title:'Photography',
-        info: 'Lorem iure quaerat blanditiis mollitia? Molestias Doloremque.'
+        src:`${JavaScript}`,
+        title:'JavaScript',
     },
     {
         id: 5,
-        src:`${Icon5}`,
-        title:'Content Writing',
-        info: 'Lorem iure quaerat blanditiis mollitia? Molestias Doloremque.'
+        src:`${Jquery}`,
+        title:'jQuery',
     },
     {
         id: 6,
-        src:`${Icon6}`,
-        title:'Video Editing',
-        info: 'Lorem iure quaerat blanditiis mollitia? Molestias Doloremque.'
+        src:`${React}`,
+        title:'React Js',
     }
 ]
 

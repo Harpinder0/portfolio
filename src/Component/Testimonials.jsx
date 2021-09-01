@@ -7,7 +7,6 @@ const Testimonials = () => {
             <section className="testimonials adjust" id="testimonials">
                 <div className="title">
                     <h2>Testimonials</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, hic.</p>
                 </div>
                 <div className="content">
                         

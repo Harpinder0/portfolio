@@ -7,7 +7,6 @@ const Project = () => {
            <section className="project adjust" id="project">
                 <div className="title">
                     <h2>Recent Work</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, hic.</p>
                 </div>
 
                 <div className="content">

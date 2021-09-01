@@ -6,8 +6,7 @@ const Service = () => {
         <>
             <section className="service adjust" id="service">
                     <div className="title">
-                        <h2>Our Service</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Itaque quia.</p>
+                        <h2>My Skills</h2>
                     </div>
                     <div className="content">
 
@@ -17,7 +16,6 @@ const Service = () => {
                                     <div className="serviceBox" key={ele.id}>
                                         <img src={ele.src} alt="icon" />
                                         <h2>{ele.title}</h2>
-                                        <p>{ele.info}</p>
                                     </div>           
                                 )
                             })
