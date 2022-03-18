@@ -1,2 +1,0 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap);*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;scroll-behavior:smooth}:root{--black:#333;--black2:#333;--white:#fff;--white2:#fff}body{overflow-x:hidden}.dark{--black:#fff;--black2:#444;--white:#333;--white2:#444}.themeSwitch:before{content:"\f186";font-family:fontAwesome}.dark .themeSwitch:before{content:"\f185";font-family:fontAwesome}
-/*# sourceMappingURL=main.ab256c41.chunk.css.map */
