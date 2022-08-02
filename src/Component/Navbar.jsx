@@ -1,12 +1,8 @@
 import React from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
-import Home from './Home';
-import About from './About';
-import Service from './Service';
-import Project from './Project';
+import { Link } from 'react-router-dom';
 // import Testimonials from './Testimonials';
-import Contact from './Contact';
-import Footer from './Footer';
+import Routes from '../routes';
 
 const toggle = () => {
     const toggles = document.querySelector('.toggle');
@@ -43,30 +39,26 @@ const Navbar = () => {
             <div className="container-fuild navbar">
                 <div className="navigation">
                     <ul>
-                        <li><a href="#banner" onClick={removeToggle}>Home</a></li>
-                        <li><a href="#about" onClick={removeToggle}>About</a></li>
-                        <li><a href="#service" onClick={removeToggle}>Service</a></li>
-                        <li><a href="#project" onClick={removeToggle}>Project</a></li>
-                        {/* <li><a href="#testimonials" onClick={removeToggle}>Testimonials</a></li> */}
-                        <li><a href="#contact" onClick={removeToggle}>Contact</a></li>
+                        <li><Link to="/" onClick={removeToggle}>Home</Link></li>
+                        <li><Link to="/about" onClick={removeToggle}>About</Link></li>
+                        <li><Link to="/service" onClick={removeToggle}>Service</Link></li>
+                        <li><Link to="/project" onClick={removeToggle}>Project</Link></li>
+                        {/* <li><Link to="#testimonials" onClick={removeToggle}>Testimonials</Link></li> */}
+                        <li><Link to="/contact" onClick={removeToggle}>Contact</Link></li>
                     </ul>
                     <div className="themeSwitch" onClick={dark}></div>
                 </div>
 
                 <div className="main">
                     <div className="topbar">
-                        <a href="/portfolio" className="logo">Portfolio</a>
+                        <Link to="/" className="logo">Portfolio</Link>
                         <div className="toggle" onClick={toggle}>
                             <AiOutlineMenu/>
                         </div>
                     </div>
-                    <Home />
-                    <About />
-                    <Service />
-                    <Project />
+                    <Routes />
                     {/* <Testimonials /> */}
-                    <Contact />
-                    <Footer />
+                    {/* <Footer />*/}
                 </div>
                 
                    

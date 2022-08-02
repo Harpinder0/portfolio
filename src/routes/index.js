@@ -1,6 +1,5 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Navbar from "../Component/Navbar";
 import CvDownload from "../Component/CvDownload";
 
 // Pages
@@ -13,7 +12,7 @@ import Contact from "../pages/contact";
 const routes = [
     {
         key: 1,
-        path: '/home',
+        path: '/',
         component: Home,
         exact: true
     },
@@ -43,12 +42,6 @@ const routes = [
     },
     {
         key: 6,
-        path: '/portfolio',
-        component: Navbar,
-        exact: true
-    },
-    {
-        key: 7,
         path: '/cvdownload',
         component: CvDownload,
         exact: true
