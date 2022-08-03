@@ -57,7 +57,7 @@ const About = () => {
                 background: var(--black);
             }
 
-            .about .content {
+            about .content {
                 display: flex;
                 margin-top: 40px;
             }

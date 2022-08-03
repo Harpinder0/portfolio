@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import CvDownload from "../Component/CvDownload";
+import CvDownload from "../component/cv/CvDownload";
 
 // Pages
 import Home from "../pages/home";

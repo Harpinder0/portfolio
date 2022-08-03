@@ -4,8 +4,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { GrLinkedinOption } from "react-icons/gr";
 import { AiOutlineTwitter } from "react-icons/ai";
-import user1 from '../images/usermy.jpg'
-import Cv from '../images/HarpinderSingh.pdf'
+import user1 from '../../images/usermy.jpg'
+import Cv from '../../images/HarpinderSingh.pdf'
 
 
 

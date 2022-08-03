@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link } from 'react-router-dom';
 // import Testimonials from './Testimonials';
-import Routes from '../routes';
+import Routes from '../../routes';
 
 const toggle = () => {
     const toggles = document.querySelector('.toggle');
@@ -57,6 +57,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <Routes />
+                   
                     {/* <Testimonials /> */}
                     {/* <Footer />*/}
                 </div>

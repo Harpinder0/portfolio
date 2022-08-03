@@ -1,7 +1,7 @@
 import React from 'react'
-import Phone from '../images/phone.png'
-import Placeholder from '../images/placeholder.png'
-import Email from '../images/email.png'
+import Phone from '../../images/phone.png'
+import Placeholder from '../../images/placeholder.png'
+import Email from '../../images/email.png'
 
 
 const Contact = () => {
