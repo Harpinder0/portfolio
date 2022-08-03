@@ -1,9 +1,9 @@
-import Html from '../images/html.png'
-import Css from '../images/css-3.png'
-import Bootstrap from '../images/bootstrap.png'
-import JavaScript from '../images/javascript.png'
-import Jquery from '../images/jquery.png'
-import React from '../images/react.png'
+import Html from '../../images/html.png'
+import Css from '../../images/css-3.png'
+import Bootstrap from '../../images/bootstrap.png'
+import JavaScript from '../../images/javascript.png'
+import Jquery from '../../images/jquery.png'
+import React from '../../images/react.png'
 
 
 const ServiceData = [

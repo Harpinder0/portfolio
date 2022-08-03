@@ -1,5 +1,5 @@
 import React from 'react';
-import About from '../../Component/About';
+import About from '../../component/about/About';
 
 const about = () => {
   return (
