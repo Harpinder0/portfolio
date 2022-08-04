@@ -39,7 +39,7 @@ const Navbar = () => {
             <div className="container-fuild navbar">
                 <div className="navigation">
                     <ul>
-                        <li><Link to="/" onClick={removeToggle}>Home</Link></li>
+                        <li><Link to="/portfolio" onClick={removeToggle}>Home</Link></li>
                         <li><Link to="/about" onClick={removeToggle}>About</Link></li>
                         <li><Link to="/service" onClick={removeToggle}>Service</Link></li>
                         <li><Link to="/project" onClick={removeToggle}>Project</Link></li>
@@ -51,7 +51,7 @@ const Navbar = () => {
 
                 <div className="main">
                     <div className="topbar">
-                        <Link to="/" className="logo">Portfolio</Link>
+                        <Link to="/portfolio" className="logo">Portfolio</Link>
                         <div className="toggle" onClick={toggle}>
                             <AiOutlineMenu/>
                         </div>

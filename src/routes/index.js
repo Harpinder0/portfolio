@@ -12,7 +12,7 @@ import Contact from "../pages/contact";
 const routes = [
     {
         key: 1,
-        path: '/',
+        path: '/portfolio',
         component: Home,
         exact: true
     },
