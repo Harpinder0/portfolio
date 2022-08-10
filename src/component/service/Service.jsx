@@ -1,6 +1,8 @@
 import React from 'react'
 import ServiceData from './ServiceData'
+import Accordion from '../common/accordion/index'
 import './style.css';
+import Card from '../common/card';
 
 const Service = () => {
   return (
@@ -8,8 +10,10 @@ const Service = () => {
       <div className="title">
         <h2>My Skills</h2>
       </div>
-      <div className="content">
+      <Card />
+      <Accordion />
 
+      <div className="content">
         {
           ServiceData.map((ele) => {
             return (
