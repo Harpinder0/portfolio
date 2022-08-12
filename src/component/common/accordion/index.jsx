@@ -1,4 +1,5 @@
 import React from 'react'
+import Service from '../../service/Service';
 
 const Accordion = () => {
     return (
@@ -10,7 +11,7 @@ const Accordion = () => {
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                    <div class="accordion-body"><Service /></div>
                 </div>
             </div>
             <div class="accordion-item">
