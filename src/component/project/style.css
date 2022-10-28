@@ -41,6 +41,7 @@
   height: 100%;
   background: var(--black);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   transform: translateY(100%);
@@ -58,6 +59,17 @@
 .project .content .workBx .textBx h3 {
   color: #fff;
   font-size: 1em;
+}
+
+.button-style-back,
+.button-style-next {
+  width: 100px;
+}
+
+.button-footer-section {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 
 @media (max-width: 922px) {
