@@ -19,12 +19,31 @@ const Project = () => {
                 </div>
                 <div className="textBx">
                   <h3>{curVal.name}</h3>
+                  <button
+                    type="button"
+                    className="btn btn-light"
+                  >
+                    <a
+                      className='nav-link'
+                      target="_blank"
+                      rel="noreferrer"
+                      href={curVal.link}
+                    >
+                      View
+                    </a>
+                  </button>
                 </div>
               </div>
             )
           })
         }
       </div>
+      {/*<div className='button-footer-section'>
+          <button type="button" className="btn btn-light button-style-back">Back</button>
+          {
+            ProjectData.length > 6 ? <button type="button" className="btn btn-light button-style-next">Next</button> : ''
+          }
+        </div>*/}
     </section>
   )
 }
